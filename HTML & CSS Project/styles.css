@@ -1,0 +1,143 @@
+body{
+    background-color: #1a1a1d;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    color: #f4f4f4;
+    font-size: 3rem;
+}
+
+h2{
+    padding: 0.5rem;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: bisque;
+}*/
+
+/*nav li{
+    display: inline-block;
+    margin: 1rem;
+}*/
+
+nav{
+    margin-top: 1.5rem;
+    display: flex;
+    border-radius: 25px;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav div{
+    flex: 1;
+}
+
+a{
+    font-size: large;
+    text-decoration: none;
+}
+
+a:link{
+    color: #1a1a1d;
+}
+
+a:visited{
+    color: #950740;
+}
+
+a:hover{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #c3073f;
+}
+
+a:active{
+    color: #6f2232;
+}
+
+section{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px; 
+}
+
+article{
+    flex: 1;
+    text-align: center;
+}
+
+article img{
+    padding: 0.5rem;
+}
+
+article p{
+    padding: 0.5rem;
+    color: #c0b283;
+}
+
+.background {
+    position: relative;
+    text-align: center;
+}
+
+.top-left {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.bottom-left {
+    text-align: left;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    padding-left: 2rem;
+}
+
+.container{
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-radius: 25px;
+}
+
+.container:hover{
+    font-weight: 900;
+    transform: rotateZ(5deg);
+    background-color: #d3d3d3;
+    transition: 2s;
+}
+
+footer{
+    padding-top: 2rem;
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer p{
+    color: white;
+    text-align: end;
+    text-decoration: overline;
+}
